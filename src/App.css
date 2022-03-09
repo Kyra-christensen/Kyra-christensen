@@ -1,0 +1,31 @@
+html, #root, .App {
+  background-color: #e279d085;
+}
+
+.navBar {
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  height: 10%;
+  width: 100%;
+  font-size: medium;
+}
+
+.navBar a {
+  color: #e279d085;
+  font-size: large;
+}
+
+.navBar a:hover {
+  font-size: 120%;
+}
+
+.navBar ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  justify-content: space-around;
+  list-style-type: none;
+}
