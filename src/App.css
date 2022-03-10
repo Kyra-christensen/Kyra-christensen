@@ -1,18 +1,31 @@
 html, #root, .App {
-  background-color: #e279d085;
+  height:100%;
+}
+
+.App {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  box-shadow: 0px 0px 8px -1px #FFFFFF;
 }
 
 .navBar {
-  position: fixed;
-  top: 0;
-  background-color: #ffffff;
-  height: 10%;
-  width: 100%;
-  font-size: medium;
+  width: 50%;
+  border-radius: 15px;
+  background-color: rgb(239, 180, 180);
+  
 }
 
 .navBar a {
-  color: #e279d085;
+  background-color: rgb(239, 180, 180);
+  border-radius: 10px;
+  color: #ffffff;
   font-size: large;
 }
 
@@ -28,4 +41,28 @@ html, #root, .App {
   margin: 5px;
   justify-content: space-around;
   list-style-type: none;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.nameTag {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.nameTag h1, h2 {
+  background-color: rgb(239, 180, 180);
+  color: #FFFFFF;
+  border-radius: 10px;
+  padding: 5px;
 }
