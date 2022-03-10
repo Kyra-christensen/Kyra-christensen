@@ -2,17 +2,26 @@ html, #root, .App {
   background-color: #e279d085;
 }
 
+a {
+  text-decoration: none;
+  box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.68);
+}
+
 .navBar {
   position: fixed;
   top: 0;
+  left: 12px;
+  margin-left: 9px;
+  margin-right: 9px;
   background-color: #ffffff;
-  height: 10%;
-  width: 100%;
-  font-size: medium;
+  width: 98%;
+  border-radius: 5px;
 }
 
 .navBar a {
-  color: #e279d085;
+  background-color: #e279d085;
+  border-radius: 5px;
+  color: #ffffff;
   font-size: large;
 }
 
@@ -28,4 +37,10 @@ html, #root, .App {
   margin: 5px;
   justify-content: space-around;
   list-style-type: none;
+}
+
+.home {
+  position:fixed;
+  top: 50px;
+  width: 100%;
 }
