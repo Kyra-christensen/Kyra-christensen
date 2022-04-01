@@ -7,3 +7,5 @@
 🌸 Database: Supabase 
 🌸 Version Control: GitHub
 🌸 Tools: Git | VS Code | Miro | Slack
+
+## Just a test to see if I really am able to use my ipad 
